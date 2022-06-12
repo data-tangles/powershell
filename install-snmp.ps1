@@ -5,7 +5,7 @@ Write-Host "==================================================="
 ## Variables
 
 $CollectionHost = 10.4.20.19
-$SNMPCommunity = dreddrealm
+$SNMPCommunity = "dreddrealm"
 
 Install-WindowsFeature SNMP-Service
 

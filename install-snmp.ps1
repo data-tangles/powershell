@@ -4,8 +4,8 @@ Write-Host "==================================================="
 
 ## Variables
 
-$CollectionHost = 10.4.20.19
-$SNMPCommunity = "dreddrealm"
+$CollectionHost = X.X.X.X #Input IP or hostname
+$SNMPCommunity = "example" #Input SNMP Community String
 
 Install-WindowsFeature SNMP-Service
 
